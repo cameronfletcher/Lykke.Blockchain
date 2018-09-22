@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lykke.Blockchain.Sdk\Lykke.Blockchain.Sdk.csproj" />
+    <ProjectReference Include="..\Lykke.Blockchain.Services.FakeBlockchain\Lykke.Blockchain.Services.FakeBlockchain.csproj" />
+  </ItemGroup>
+
+</Project>

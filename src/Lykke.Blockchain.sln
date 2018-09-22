@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.Blockchain.Sdk", "Lykke.Blockchain.Sdk\Lykke.Blockchain.Sdk.csproj", "{62B1608C-0D91-4033-9439-3FD488D02DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.Blockchain.Services.LiteCoin", "Lykke.Blockchain.Services.LiteCoin\Lykke.Blockchain.Services.LiteCoin.csproj", "{384C5C8C-85E0-44B8-B953-96F068CABA08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{8B693360-88D7-4F4D-B8FC-1E2B89BF0BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.Blockchain.Services.FakeBlockchain", "Lykke.Blockchain.Services.FakeBlockchain\Lykke.Blockchain.Services.FakeBlockchain.csproj", "{7226924B-384F-45CC-8526-F14A89C9F42A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62B1608C-0D91-4033-9439-3FD488D02DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B1608C-0D91-4033-9439-3FD488D02DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B1608C-0D91-4033-9439-3FD488D02DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B1608C-0D91-4033-9439-3FD488D02DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384C5C8C-85E0-44B8-B953-96F068CABA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384C5C8C-85E0-44B8-B953-96F068CABA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384C5C8C-85E0-44B8-B953-96F068CABA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384C5C8C-85E0-44B8-B953-96F068CABA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B693360-88D7-4F4D-B8FC-1E2B89BF0BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B693360-88D7-4F4D-B8FC-1E2B89BF0BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B693360-88D7-4F4D-B8FC-1E2B89BF0BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B693360-88D7-4F4D-B8FC-1E2B89BF0BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7226924B-384F-45CC-8526-F14A89C9F42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7226924B-384F-45CC-8526-F14A89C9F42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7226924B-384F-45CC-8526-F14A89C9F42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7226924B-384F-45CC-8526-F14A89C9F42A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {657146F7-5E54-42A0-A315-C090709FFD7E}
+	EndGlobalSection
+EndGlobal
